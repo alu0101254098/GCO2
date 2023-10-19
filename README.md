@@ -12,7 +12,7 @@
 #####   **Descargar: Mediante un git clone
 #####   **Instalar Python3 en caso de no tenerlo: sudo apt update**
 #####   **sudo apt install python3**  
-#####   **Instalar librerías en caso necesario: pip3 install numpy, pip3 install pandas**
+#####   **Instalar librerías en caso necesario:**
 #####   **Ejecutar: ./recommender_main.py** 
 ###### Una vez ejecutado el programa este pedira al usuario:
     - Fichero de texto plano con extensión .txt. Cada documento viene representado en una línea del fichero.
