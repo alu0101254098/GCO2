@@ -9,7 +9,7 @@
 #####    Ficheros .txt con los datos de entrada y salida
 
 ## **Modo de uso**:
-#####   **Descargar: Mediante un git clone
+#####   **Descargar: Mediante un git clone**
 #####   **Instalar Python3 en caso de no tenerlo: sudo apt update**
 #####   **sudo apt install python3**  
 #####   **Instalar librerías en caso necesario:**
