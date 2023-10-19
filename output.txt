@@ -125,18 +125,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.0000 | 1.6061 | 0.0000
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 1.0000
-Document 2: 0.0168
-Document 3: 0.0157
-Document 4: 0.0589
-Document 5: 0.0000
-Document 6: 0.0719
-Document 7: 0.1282
-Document 8: 0.0843
-Document 9: 0.1472
-Document 10: 0.0690
---------------------------------------------------
 Document 2:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -264,18 +252,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.1720 | 1.6061 | 0.2762
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0168
-Document 2: 1.0000
-Document 3: 0.0462
-Document 4: 0.0000
-Document 5: 0.0255
-Document 6: 0.0145
-Document 7: 0.1873
-Document 8: 0.1365
-Document 9: 0.0865
-Document 10: 0.0818
---------------------------------------------------
 Document 3:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -403,18 +379,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.1605 | 1.6061 | 0.2577
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0157
-Document 2: 0.0462
-Document 3: 1.0000
-Document 4: 0.0951
-Document 5: 0.0238
-Document 6: 0.1176
-Document 7: 0.0173
-Document 8: 0.0573
-Document 9: 0.1095
-Document 10: 0.0763
---------------------------------------------------
 Document 4:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -542,18 +506,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.0000 | 1.6061 | 0.0000
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0589
-Document 2: 0.0000
-Document 3: 0.0951
-Document 4: 1.0000
-Document 5: 0.0000
-Document 6: 0.0594
-Document 7: 0.0648
-Document 8: 0.0000
-Document 9: 0.0489
-Document 10: 0.0000
---------------------------------------------------
 Document 5:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -681,18 +633,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.1481 | 1.6061 | 0.2379
 124 | winter | 0.2494 | 2.7047 | 0.6746
-Coseno Similarity with other documents:
-Document 1: 0.0000
-Document 2: 0.0255
-Document 3: 0.0238
-Document 4: 0.0000
-Document 5: 1.0000
-Document 6: 0.0380
-Document 7: 0.0000
-Document 8: 0.0316
-Document 9: 0.0244
-Document 10: 0.0000
---------------------------------------------------
 Document 6:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -820,18 +760,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.0000 | 1.6061 | 0.0000
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0719
-Document 2: 0.0145
-Document 3: 0.1176
-Document 4: 0.0594
-Document 5: 0.0380
-Document 6: 1.0000
-Document 7: 0.0630
-Document 8: 0.0180
-Document 9: 0.0579
-Document 10: 0.0418
---------------------------------------------------
 Document 7:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -959,18 +887,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.2689 | 2.7047 | 0.7273
 123 | wine | 0.0000 | 1.6061 | 0.0000
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.1282
-Document 2: 0.1873
-Document 3: 0.0173
-Document 4: 0.0648
-Document 5: 0.0000
-Document 6: 0.0630
-Document 7: 1.0000
-Document 8: 0.0763
-Document 9: 0.0866
-Document 10: 0.0971
---------------------------------------------------
 Document 8:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -1098,18 +1014,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.2132 | 1.6061 | 0.3425
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0843
-Document 2: 0.1365
-Document 3: 0.0573
-Document 4: 0.0000
-Document 5: 0.0316
-Document 6: 0.0180
-Document 7: 0.0763
-Document 8: 1.0000
-Document 9: 0.0352
-Document 10: 0.3124
---------------------------------------------------
 Document 9:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.2778 | 2.7047 | 0.7514
@@ -1237,18 +1141,6 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.1650 | 1.6061 | 0.2650
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.1472
-Document 2: 0.0865
-Document 3: 0.1095
-Document 4: 0.0489
-Document 5: 0.0244
-Document 6: 0.0579
-Document 7: 0.0866
-Document 8: 0.0352
-Document 9: 1.0000
-Document 10: 0.0357
---------------------------------------------------
 Document 10:
 Index | Term | TF | IDF | TF-IDF
 0 | accent | 0.0000 | 2.7047 | 0.0000
@@ -1376,15 +1268,3 @@ Index | Term | TF | IDF | TF-IDF
 122 | white | 0.0000 | 2.7047 | 0.0000
 123 | wine | 0.0000 | 1.6061 | 0.0000
 124 | winter | 0.0000 | 2.7047 | 0.0000
-Coseno Similarity with other documents:
-Document 1: 0.0690
-Document 2: 0.0818
-Document 3: 0.0763
-Document 4: 0.0000
-Document 5: 0.0000
-Document 6: 0.0418
-Document 7: 0.0971
-Document 8: 0.3124
-Document 9: 0.0357
-Document 10: 1.0000
---------------------------------------------------
