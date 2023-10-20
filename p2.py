@@ -20,16 +20,16 @@ def preprocess_text(text):
 
 # Cargar las palabras de parada
 stop_words = set()
-with open('stopwords.txt', 'r') as stopwords_file:
+with open('stop-words-en.txt', 'r') as stopwords_file:
     stop_words = set(stopwords_file.read().splitlines())
 
 # Cargar el archivo de lematización
 lemmatization = {}
-with open('corpus.txt', 'r') as lemmatization_file:
+with open('corpus-en.txt', 'r') as lemmatization_file:
     lemmatization = json.load(lemmatization_file)
 
 # Leer el archivo de texto
-with open('input.txt', 'r') as file:
+with open('documents-01.txt', 'r') as file:
     documents = file.read().splitlines()
 
 # Preprocesar los documentos
