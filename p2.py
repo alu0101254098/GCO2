@@ -53,3 +53,8 @@ with open('output.txt', 'w') as output_file:
             idf = vectorizer.idf_[j]
             tfidf = tf * idf
             output_file.write(f'{j} | {term} | {tf:.4f} | {idf:.4f} | {tfidf:.4f}\n')
+
+        output_file.write('Similitud de coseno entre documentos:\n')
+        for j, similarity in enumerate(cosine_similarities[i]):
+            output_file.write(f'Document {j + 1}: {similarity:.4f}\n')
+        output_file.write('-' * 50 + '\n')
