@@ -24,6 +24,7 @@ Para poder emplear nuestro código, se tendrá que realizar un `git clone` de es
 
 ## Descripción del código desarrollado<a name="id1"></a>
 
+### Dentro de `functions_recommender_bc.py`:
 Tenemos un código desarrolldo en lenguaje Python, este recibe un fichero `stopwords.txt`, el cual nos indica las palabras que deben ignorarse, `corpus.txt`, que nos ayuda a pasar los verbos en sus diferentes tiempos a infinitivo.
 Finalmente, los ficheros de texto plano que les pasemos estaran compuestos por diferentes líneas las cuales cada una representa un documento, es decir 10 líneas serían 10 documentos.
 `main(stop_words_file, corpus_file, documents_file)`: Esta es la función principal que coordina todo el proceso. Recibe tres archivos como entrada: un archivo de palabras de parada, un archivo de lematización y un archivo de documentos de texto. Luego, realiza los siguientes pasos:
@@ -52,4 +53,10 @@ Finalmente, los ficheros de texto plano que les pasemos estaran compuestos por d
 
 `output(all_results, similarity_df)`: Esta función es responsable de imprimir los resultados en la consola y luego llamar a final_xlsx_output para guardar los resultados en un archivo XLSX.
 
+### Dentro de `main_recommender_bc.py`
+
+En este fichero tenemos el módulo argparse para parsear argumentos de línea de comandos y luego llama a la función main del módulo functions_recommender_bc con los argumentos proporcionados.
+
 ## Ejemplo de uso<a name="id2"></a>
+
+python3 script.py -s my_stop_words.txt -c my_corpus.txt -d my_documents.txt
