@@ -80,7 +80,7 @@ def main(stop_words_file, corpus_file, documents_file):
                 similarity_df = add_similarity(similarity_df, pos_label, float(similarity))
         
         # Devolver la salida 
-        output(all_results, similarity_df)
+        output(all_results, similarity_df, documents_file)
         return [all_results, similarity_df]
     
     except Exception as error:
@@ -160,23 +160,26 @@ def add_similarity(similarity_df, pos_label, similarity):
         raise
 
 # Almacena la salida del programa en un fichero xlsx
-def final_xlsx_output(all_results, similarity_df):
+def final_xlsx_output(all_results, similarity_df, documents_file):
     try:
-        with pd.ExcelWriter(RESULT_XLSX, engine='openpyxl', mode='w') as writer:
+        document_name = os.path.splitext(documents_file)[0]
+        output_file = document_name + '-' + RESULT_XLSX
+        with pd.ExcelWriter(output_file, engine='openpyxl', mode='w') as writer:
             similarity_df.to_excel(writer, sheet_name="Similarity DataFrame")
             for i in range(len(all_results)):
                 all_results[i].to_excel(writer, sheet_name=f'Document{i+1}', index=False)
+        return output_file
     except Exception as error:
         print(f'Exception in final_xlsx_output: {error}')
         raise
 
 # Devuelve la salida total del programa
-def output(all_results, similarity_df):
+def output(all_results, similarity_df, documents_file):
     try:
-        final_xlsx_output(all_results, similarity_df)
+        output_file = final_xlsx_output(all_results, similarity_df, documents_file)
         [print(f"Document {idx + 1}:\n{result}\n") for idx, result in enumerate(all_results)]
         print(similarity_df)
-        print(f'\nSe han registrado los resultados completos en el fichero: {RESULT_XLSX}')
+        print(f'\nSe han registrado los resultados completos en el fichero: {output_file}')
     except Exception as error:
         print(f'Exception in output: {error}')
         raise

@@ -59,4 +59,4 @@ En este fichero tenemos el módulo argparse para parsear argumentos de línea de
 
 ## Ejemplo de uso<a name="id2"></a>
 
-python3 script.py -s my_stop_words.txt -c my_corpus.txt -d my_documents.txt
+python3 main_recommender_bc.py -s stop-words-en.txt -c corpus-en.txt -d documents-01.txt
